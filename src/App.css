@@ -117,10 +117,6 @@ img:hover {
   50% { background-position: 400% 0; }
   100% { background-position: 0 0; }
 }
-/* .btn:hover
-{
-  background-color: rgb(248, 206, 151);
-} */
 .heading
 {
    font-family: 'Playfair Display', serif;
@@ -131,6 +127,20 @@ img:hover {
 {
     background-color: black;
     color: whitesmoke;
+}
+#signupbtn:hover
+{
+    background-color: black;
+    color: whitesmoke;
+}
+#togglebtn
+{
+  background-color: #000;
+  color: whitesmoke;
+}
+#togglebtn:hover{
+  background-color:whitesmoke;
+  color: black;
 }
 .input:hover
 {
@@ -200,54 +210,8 @@ img:hover {
 {
    text-align: center;
 }
-#tbtn
-{
-   background-color: rgb(189, 137, 238);
-   font-size:2em;
-   border-radius: 10px;
-}
-#ttext
-{
-   font-size: 3em;
-   font-family:'Trebuchet MS';
-   color: rgb(0, 221, 233);
-}
-#tbtn
-{
-  /* background-color: rgb(114, 239, 114); */
-  font-size:2em;
-  border-radius: 10px;
-  width: 200px;
-    font-size: 16px;
-    font-weight: 600;
-    background-color:rgba(47, 199, 216, 0.75);
-    cursor: pointer;
-    margin: 20px;
-    height: 55px;
-    text-align:center;
-    border: none;
-    background-size: 300% 100%;
-
-    border-radius: 50px;
-    moz-transition: all .5s ease-in-out;
-    -o-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
-}
-#tbtn:hover{
-  background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
-    -o-transition: all .4s ease-in-out;
-    -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
-}
-#tbtn:hover{
-  background-image: linear-gradient(to right, #39d2d7, #5fdcda, #44e8e0, #5cd7df);
-  box-shadow: 0 4px 15px 0 rgba(67, 222, 233, 0.75);
-}
 #bbtn
 {
-  /* background-color: rgb(114, 239, 114); */
   font-size:2em;
   border-radius: 10px;
   width: 200px;
@@ -295,7 +259,6 @@ background-position: 100% 0;
 #contact
 {
   background: radial-gradient(#f191d5,#c1b5b7);
-  /* background-color:radial-gradient(#e785c9,#2f1a1e); */
 }
 #ctext
 {
@@ -311,7 +274,6 @@ background-position: 100% 0;
   margin-left: 160px;
   display: flex;
   justify-content:end;
-  /* align-items: center; */
 }
 #c{ animation: c infinite 2s ease-in-out }
 @keyframes c {
@@ -320,4 +282,8 @@ background-position: 100% 0;
 .abtn:hover
 {
   background: linear-gradient(to bottom, #eae28e 0%, #bd75c9 100%);
+}
+#contact
+{
+  background: radial-gradient(#e785c9,#2f1a1e);
 }

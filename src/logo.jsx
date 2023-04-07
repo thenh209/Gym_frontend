@@ -1,4 +1,4 @@
-// import './App.css';
+
 import logo from './assets/logo.jpg';
 export default function Logo(){
     return (

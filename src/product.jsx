@@ -73,7 +73,7 @@ export default function Product(){
           </Grid>
         </Grid>
       </Container>
-      <Cart items={itemsInCart} />
+      <Cart items={itemsInCart} onRemoveItem={handleRemoveFromCart} />
     </div>
   );
 }
